@@ -19,7 +19,7 @@ void print(Node* &head){
         cout << temp -> data << " ";
         temp = temp -> next;
 
-    }
+    } 
     cout << endl;
 }
 
@@ -55,17 +55,17 @@ int main(){
     Node* seconde = new Node(20);
     Node* third =  new Node(30);
     Node* fourth = new Node(40);
-    Node* fifth = new Node(50);
-    Node* sixth = new Node(60);
-    Node* seven = new Node(70);
+    // Node* fifth = new Node(50);
+    // Node* sixth = new Node(60);
+    // Node* seven = new Node(70);
 
     head->next = seconde;
     seconde-> next = third;
     third-> next = fourth;
-    fourth-> next = fifth;
-    fifth-> next = sixth;
-    sixth -> next = seven;
-    seven -> next = NULL;
+    fourth-> next = NULL;
+    // fifth-> next = sixth;
+    // sixth -> next = seven;
+    // seven -> next = NULL;
 
     print(head);
 
