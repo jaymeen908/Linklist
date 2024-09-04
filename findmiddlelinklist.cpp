@@ -69,6 +69,6 @@ int main(){
 
     print(head);
 
-    cout << "middle node of link list " << getMiddle(head) -> data << endl;
+    cout << "getMiddle node of link list  " << getMiddle(head) -> data << endl;
     return 0;
 }
