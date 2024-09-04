@@ -1,0 +1,1 @@
+ // sixth -> next = NULL;
